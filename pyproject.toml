@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "word-comments-to-excel"
+version = "0.1.0"
+description = "Extract commented (highlighted) text and comments from a .docx into Excel."
+authors = [{name = "Mattie Wiseman"}]
+requires-python = ">=3.9"
+dependencies = [
+    "lxml>=5.2.0",
+    "pandas>=2.1.0",
+    "openpyxl>=3.1.0",
+]
